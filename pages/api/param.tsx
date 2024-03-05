@@ -39,7 +39,9 @@ if (title != "" && name != "") {
     textAlign: 'center'
   }}
 >
-  <b>{name}</b> vừa hoàn thành bài test tâm lý với kết quả<br />{title}. <br /><span style={{color:'green'}}>Bấm vào đây để test ngay!</span><br /><p style={{fontSize: 17, marginBottom: 0}}>© {new Date().getFullYear()} TUNNA DUONG & TRUNG TÂM PHỤC HỒI CHỨC NĂNG TÂM THẦN</p>
+  <b style={{
+  fontWeight: '600'
+  }}>{name}</b> vừa hoàn thành bài test tâm lý với kết quả<br />{title}. <br /><span style={{color:'green'}}>Bấm vào đây để test ngay!</span><br /><p style={{fontSize: 17, marginBottom: 0}}>© {new Date().getFullYear()} TUNNA DUONG & TRUNG TÂM PHỤC HỒI CHỨC NĂNG TÂM THẦN</p>
 </div>
       ),
       {
